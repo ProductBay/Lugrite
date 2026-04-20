@@ -173,7 +173,7 @@ export default function IslandLifestyleSection() {
   const { ref, isRevealed } = useScrollReveal();
   const [activeService, setActiveService] = useState(SERVICES[0]);
   const [activeSlide, setActiveSlide] = useState(0);
-  const slideTimerRef = useRef<ReturnType<typeof window.setInterval> | null>(null);
+  const slideTimerRef = useRef<number | null>(null);
 
   const resetTimer = () => {
     if (slideTimerRef.current) window.clearInterval(slideTimerRef.current);
