@@ -55,6 +55,13 @@ export const metadata: Metadata = {
       "Secure luggage storage, cruise & airport transfers, and island lifestyle bookings in St. Kitts & Nevis.",
     images: ["/lugrite-logo.jpeg"],
   },
+  icons: {
+    icon: [
+      { url: "/lugrite-icon.png", type: "image/png" },
+    ],
+    apple: "/lugrite-icon.png",
+    shortcut: "/lugrite-icon.png",
+  },
   themeColor: "#f97316",
   applicationName: "LugRite",
 };
